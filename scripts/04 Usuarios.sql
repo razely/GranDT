@@ -8,5 +8,3 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON 5to_grandt67.* TO 'grandtvot'@'localhost
 CREATE USER IF NOT EXISTS 'grandt.admin'@'localhost' IDENTIFIED BY 'AdminPass67!';
 -- Darle todos los permisos al administrador sobre nuestra base de datos
 GRANT ALL PRIVILEGES ON 5to_grandt67.* TO 'grandt.admin'@'localhost';
-
-FLUSH PRIVILEGES;
